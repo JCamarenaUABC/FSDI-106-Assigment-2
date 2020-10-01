@@ -1,0 +1,32 @@
+/* FlexBox */
+
+.container{
+    background-color: aqua;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+}
+
+.section{
+    flex: 1;
+}
+
+#btnImportant{
+    font-size:20px;
+    color: gray;
+    cursor: pointer;
+}
+
+#section-Form .active{
+    color: red !important;
+}
+
+.control{
+    display: block;
+}
+
+/*.section{
+    background-color: aqua;
+    display: inline-block;
+    border: 1px solid red;
+    width: 48%;
+}*/
